@@ -1,0 +1,94 @@
+h2 {
+    color: rgb(134, 45, 60);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 2em;
+    line-height: 1.5em;
+    font-weight: 700;
+    padding: 20px 15px 15px 15px;
+
+}
+
+body {
+    padding: 30px 30px 30px 30px;
+    margin: 40px 20px 40px 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    line-height: 28px;
+    background-color: rgb(185, 221, 231);
+}
+
+h1 {
+    color: rgb(27, 2, 2);
+    font-size: 38px;
+    line-height: 44px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 20px 15px 15px 15px;
+   
+}
+
+
+h3 {
+    color: rgb(134, 45, 60);
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 20px 15px 15px 15px;
+
+}
+
+h4 {
+    color: rgb(134, 45, 60);
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+h5 {
+    color: rgb(134, 45, 60);
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+h6 {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+
+ul,
+ol {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 15px 15px 15px;
+}
+
+blockquote {
+    margin: 0 0 10px 0;
+    padding: 10px 20px;
+    border-left: 5px solid #630404;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Courier New", Courier, monospace;	
+}
+
+img {
+    position: relative;
+    right: 10%;
+    align-items: flex-start;
+    width: 700px;
+    height: 300px;
+    object-fit: contain;
+}

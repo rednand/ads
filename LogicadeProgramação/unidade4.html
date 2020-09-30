@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Unidade 4</title>
+    <link rel="stylesheet" type="text/css" href="style4.css" />
+</head>
+
+<body>
+    <h1>Unidade 4</h1>
+    <h2>Vetores</h2>
+    <p>Vetores são variáveis compostas homogêneas</p>
+    <h3>Variáveis Compostas Homogêneas</h3>
+    <p>Variável é um elemento que armazena um valor pertencente a um tipo , pode ser unitária ou composta. Unitária é
+        única e composta é um conjunto de valores, que podem ser homogêneos - mesmo tipo - ou heterogêneos - tipos
+        diferentes. As compostas homogêneas podem ser chamadas de vetores, compostas por uma estrutura de dados
+        unidimensional.
+    </p>
+    <p>A sintaxe da definição de um vetor é a seguinte :</p>
+    <blockquote>tipo identificador = vator [LI .. LF] de tipo primitivo;</blockquote>
+    <p>Em que LI é o limite inicial do vetor e LF é o limite final. O numero de valores dentro do vetor pode ser
+        calculado como LF-LI+1.
+    </p>
+    <p>Por exemplo, um vetor V com 40 valores inteiros:</p>
+    <blockquote>tipo V = vetor[1..40] de inteiros; </blockquote>
+    <p>Os vetores tbm são conhecidos como <em>arrays</em>, e o preenchimento dele pode ser feito indicando um valor
+        segundo sua posição (índice), ou seja, por indexação:
+    </p>
+    <blockquote> V: VA,VB,VC;<br>VA[1] = 5; <br>VA[2] = 8;<br>VA[3] = 11;</blockquote>
+    <h3>Uso de vetores em linguagem de programação</h3>
+    <p>Na linguagem C o uso de vetor pode ser feito por meio de definições com <em>array</em> (sintaxe):</p>
+    <blockquote>Tipo nome_do_vetor[quantidade de itens];</blockquote>
+    <p>Exemplo:</p>
+    <blockquote>int V[5] = {1,2,3,4,5} //inicializando todos os elementos</blockquote>
+    <blockquote>int V[5] = {1,2,3} //inicializando alguns elementos , que é equivalente a {1,2,3,0,0}</blockquote>
+    <blockquote>int V[] = {1,2,3} //inicializando vetor sem especificar quantidade de elementos</blockquote>
+    <p>Exemplo de programa em C:</p>
+    <img src="c.png" alt="linguagemc">
+    <h2>Vetores - parte 2</h2>
+    <h3>Carregando vetores</h3>
+    <p>A carga de um vetor pode ser feita por índice, de forma individual e pode-se tbm encontrar o valor dentro de um
+        vetor, por exemplo A[1] indica o primeiro elemento do vator A, assim como A[2] é o segundo.
+        É possível também que uma variavel receba o valor de elemento de um vetor:</p>
+    <blockquote>x = A[3]; // a variavel x recebe o valor do terceiro elemento do vetor A</blockquote>
+    <p>Pode-se tambem realizar operações aritméticas com vetores :</p>
+    <blockquote>A[4] = 2*A[4];</blockquote>
+    <h3>Lendo e mostrando vetores</h3>
+    <p>Para leitura de vetores tbm se usa índice como referência, assim para fazer a leitura do 4 elemento do vetor Z
+        deve usar Z[4].
+    </p>
+
+    <h2>Matrizes</h2>
+    <p>Os vetores são unidimensionais mas existem os bidimensionais conhecidos como tabelas ou matrizes. Ela é composta
+        de 2 índices que representam linhas e colunas.
+    </p>
+    <h3>Declaração de matrizes</h3>
+    <p>A declaração de matrizes pode ser feita pela seguinte sintaxe:</p>
+    <blockquote>tipo identificador = matriz[LI1..LF2,LI2..LF2] de tipo primitivo;</blockquote>
+    <p>Em que LI1,LF1,LI2,LF2 são limites dos intervalos de variação dos índices da variável, em que cada par está
+        associado a um índice da matriz.
+    </p>
+    <p>Exemplos de declaração de matriz:</p>
+    <blockquote>número de elementos da matrizes = (LF1-LI1+1)*(LF2-LI2+1)*...*(LFn-LIn+1)</blockquote>
+    <blockquote>tipo M = matrizes[1..4,1..4] de inteiros;</blockquote>
+    <p>Na linguagem de programação C podemos usar a seguinte sintaxe:</p>
+    <blockquote>tipo identificador[linhas][colunas]</blockquote>
+    <P>exemplo:</P>
+    <blockquote>float M[4][2];</blockquote>
+    <h3>Atribuição de matrizes</h3>
+    <blockquote>tipo M = matrizes[1..4,1..2] de reais;</blockquote>
+    <P>M: MAT;</P>
+    <blockquote>MAT[1,1] = 1;//atribue o valor 1 para o elemento da primeira linha e primeira coluna</blockquote>
+    <blockquote>MAT[1,2] = 3;//atribue o valor 3 para o elemento da primeira linha e segunda coluna</blockquote>
+    <h2>Matrizes - parte 2</h2>
+    <h3>Carregando Matrizes</h3>
+    <p>As matrizes podem ser carregadas <em>manualmente</em> através da inserção de valor para cada elemento:</p>
+    <blockquote>int m[3][3] = {10,20,30,40,50,60,70,80,90};</blockquote>
+    <p>Onde </p>
+    <blockquote>m[0][0] = 10;
+
+        m[0][1] = 20;
+
+        m[0][2] = 30;
+
+        m[1][0] = 40;
+
+        m[1][1] = 50;
+
+        m[1][2] = 60;
+
+        m[2][0] = 70;
+
+        m[2][1] = 80;
+
+        m[2][2] = 90;
+    </blockquote>
+
+</body>
+
+</html>

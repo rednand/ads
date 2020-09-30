@@ -1,0 +1,22 @@
+
+a)    ~p = "Não está calor"
+
+b)    p ^ q = "está calor" e "esta chovendo"
+
+c)    p v q = "esta calor" ou "esta chovendo"
+
+d)    p <-> q = "esta calor" se e somente se "esta chovendo"
+
+e)    p -> ~q = "esta calor" então "não está chovendo"
+
+f)     q v ~p = "esta chovendo" ou "não esta chovendo"
+
+g)    ~p -> ~q = "não esta calor" então "não esta chovendo"
+
+h)    p <-> ~q = "esta calor" se e somente se "não esta chovendo"
+
+i)     ~(~q) = "esta chovendo"
+
+j)    ~p -> q = "não esta chovendo" então "esta chovendo"
+
+Para responder a questão, envie um arquivo ou escreva sua resposta na caixa de texto abaixo.
